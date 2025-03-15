@@ -5,9 +5,9 @@ public class Comidaa {
     String refeicao;
     double pesoRefeicao;
 
-    Comidaa(String refeicao, double pesoRefeicao){
-        this.refeicao = refeicao;
+    Comidaa(){
+    }
+    Comidaa(Double pesoRefeicao){
         this.pesoRefeicao = pesoRefeicao;
-
     }
 }
